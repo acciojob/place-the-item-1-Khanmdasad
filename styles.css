@@ -1,2 +1,21 @@
-
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	justify-content: space-between;
+}
+
+.item{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	font-size: 36px;
+	padding: 20px;
+}
+
+.item:nth-child(2){
+	background-color: red;
+}
+
+.item:nth-child(3){
+	background-color: blue;
+}
